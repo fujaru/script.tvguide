@@ -37,7 +37,7 @@ class IndovisionScraper extends Scraper {
 		//$this->html = str_get_html($html_part[0]); // simple_html_dom
 		//$this->html = phpQuery::newDocument($html_part[0]);
 		$this->html = phpQuery::newDocument($this->src_html);
-		echo gettype($this->html);
+		//echo gettype($this->html);
 		return $this->html;
 	}
 	
