@@ -9,3 +9,9 @@ for XBMC.
 Supported scrappers at the moment:
 - IndovisionScrapper
 - DummyScrapper (nothing particularly, just for testing)
+
+Notice
+-------
+
+This branch contains different project than script.tvguide. Therefore 
+*do not* merge this branch into *master*.
